@@ -45,6 +45,10 @@
             top:50%;
             transform:translate(-50%,-50%);
         }
+        
+        .makeCharBolder{
+            font-weight:bolder;
+        }
 
 
         /* 特定功能属性 */
@@ -102,15 +106,20 @@
         }
         /* 文本框格式 */
         .textBox{
-            margin:10px;
-            width:380px;
+            margin:20px;
+            width:400px;
             word-wrap:break-word;
+        }
+
+        .headLine{
+            font-size:30px;
+
         }
         
         /* 照片盒子 */
         /* 盒子1  左浮动 */
         .imgBox1{
-            margin:0 10px;
+            margin:0 20px;
             background-color:aqua;
             height:160px;
             width:160px;
@@ -118,7 +127,7 @@
         
         /* 盒子2  右浮动 */
         .imgBox2{
-            margin:0 10px;
+            margin:0 20px;
             background-color:brown;
             height:160px;
             width:160px;
@@ -126,7 +135,7 @@
         
         /* 盒子3  左浮动 */
         .imgBox3{
-            margin:0 10px;
+            margin:0 20px;
             background-color:coral;
             height:160px;
             width:160px;
@@ -141,34 +150,40 @@
     <!-- 功能展示部分 -->
     <div> <!-- 功能展示主盒子 -->
          <div class="makeUnfloat"><!-- 便签1辅助定位盒子 -->
+
             <div class="note makeUnfloat"><!-- 便签本体 -->
+
                  <div class="imgBox1 float-right relVerticalCenter"></div><!-- 配图放置处 -->
-                 <div class="textBox float-left"><!-- 文字盒子 -->
-                     <!-- 标题栏 -->
-                     <div>
+                <div class="float-left">
 
-                     </div>
-                     <!-- 正文栏 -->
-                     <div>
-                        11111111111111111111111111111111111111
+                    <!-- 标题栏 -->
+                    <div class="headLine textBox makeCharBolder">
+                        功能一
+                    </div>
 
-                     </div>
-                 </div>
+                    <!-- 正文栏 -->
+                    <div class="textBox">
+                       11111111111111111111111111111111111111
+                    </div>
+
+                </div>
              </div>
          </div>
     
         <div class="makeUnfloat"><!-- 便签2辅助定位盒子 -->
             <div class="note float-right makeUnfloat"><!-- 便签本体 -->
-                <div class="textBox float-right"><!-- 文字盒子 -->
-                     <!-- 标题栏 -->
-                     <div>
+                <div class="float-right">
 
-                     </div>
-                     <!-- 正文栏 -->
-                     <div>
-                        11111111111111111111111111111111111111111111111111
+                    <!-- 标题栏 -->
+                    <div class="headLine textBox makeCharBolder">
+                        功能二
+                    </div>
 
-                     </div>
+                    <!-- 正文栏 -->
+                    <div class="textBox">
+                       11111111111111111111111111111111111111
+                    </div>
+
                 </div>
                 <div class="imgBox2 float-left relVerticalCenter"></div><!-- 配图放置处 -->
             </div>
@@ -177,15 +192,16 @@
         <div class="makeUnfloat"><!-- 便签3辅助定位盒子 -->
             <div class="note makeUnfloat"><!-- 便签本体 -->
                 <div class="imgBox3 float-right relVerticalCenter"></div><!-- 配图放置处 -->
-                <div class="textBox float-left"><!-- 文字盒子 -->
+                <div class="float-left">
 
-                     <div><!-- 标题栏 -->
+                    <!-- 标题栏 -->
+                    <div class="headLine textBox makeCharBolder">
+                        功能三
+                    </div>
 
-                     </div>
                     <!-- 正文栏 -->
-                    <div>
-                        11111111111111111111111111111111111111
-
+                    <div class="textBox">
+                       11111111111111111111111111111111111111
                     </div>
 
                 </div>
