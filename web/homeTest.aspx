@@ -1,8 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="home.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="homeTest.aspx.cs" Inherits="home" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
     <style>
         /* 通用功能设置 */
         .positionRelative{
@@ -74,6 +77,7 @@
             position:absolute;
             width:80%;
             height:80%;
+            
             border:solid 1px;
             border-color:white;
             border-radius:20px;
@@ -133,43 +137,45 @@
 
         }
     </style>
-    <div class="body">
-    <!-- 首页大图部分 -->
-    <div class="HeadHelpBox"><!-- 辅助定位盒子 -->
-    </div>
+</head>
+<body>
 
-    <!-- 功能展示部分 -->
-    <div> <!-- 功能展示主盒子 -->
-         <div class="makeUnfloat"><!-- 便签1辅助定位盒子 -->
-            <div class="note makeUnfloat"><!-- 便签本体 -->
-                 <div class="imgBox1 float-right relVerticalCenter"></div><!-- 配图放置处 -->
-                 <div class="textBox float-left"><!-- 文字盒子 -->
-                     11111111111111111111111111111111111111
+    <form id="form1" runat="server" class="body">
+        <!-- 首页大图部分 -->
+        <div class="HeadHelpBox"><!-- 辅助定位盒子 -->
+        </div>
+
+        <!-- 功能展示部分 -->
+        <div> <!-- 功能展示主盒子 -->
+             <div class="makeUnfloat"><!-- 便签1辅助定位盒子 -->
+                <div class="note makeUnfloat"><!-- 便签本体 -->
+                     <div class="imgBox1 float-right relVerticalCenter"></div><!-- 配图放置处 -->
+                     <div class="textBox float-left"><!-- 文字盒子 -->
+                         11111111111111111111111111111111111111
+                     </div>
                  </div>
              </div>
-         </div>
-    
-        <div class="makeUnfloat"><!-- 便签2辅助定位盒子 -->
-            <div class="note float-right makeUnfloat"><!-- 便签本体 -->
-                <div class="textBox float-right"><!-- 文字盒子 -->
-                    11111111111111111111111111111111111111111111111111
-                </div>
-                <div class="imgBox2 float-left relVerticalCenter"></div><!-- 配图放置处 -->
-            </div>
-        </div>
-
-        <div class="makeUnfloat"><!-- 便签3辅助定位盒子 -->
-            <div class="note makeUnfloat"><!-- 便签本体 -->
-                <div class="imgBox3 float-right relVerticalCenter"></div><!-- 配图放置处 -->
-                <div class="textBox float-left"><!-- 文字盒子 -->
-                    11111111111111111111111111111111111111
-
+        
+            <div class="makeUnfloat"><!-- 便签2辅助定位盒子 -->
+                <div class="note float-right makeUnfloat"><!-- 便签本体 -->
+                    <div class="textBox float-right"><!-- 文字盒子 -->
+                        11111111111111111111111111111111111111111111111111
+                    </div>
+                    <div class="imgBox2 float-left relVerticalCenter"></div><!-- 配图放置处 -->
                 </div>
             </div>
+
+            <div class="makeUnfloat"><!-- 便签3辅助定位盒子 -->
+                <div class="note makeUnfloat"><!-- 便签本体 -->
+                    <div class="imgBox3 float-right relVerticalCenter"></div><!-- 配图放置处 -->
+                    <div class="textBox float-left"><!-- 文字盒子 -->
+                        11111111111111111111111111111111111111
+
+                    </div>
+                </div>
+            </div>
+
         </div>
-
-    </div>
-</div>
-
-</asp:Content>
-
+    </form>
+</body>
+</html>
