@@ -144,7 +144,15 @@
             <div class="note makeUnfloat"><!-- 便签本体 -->
                  <div class="imgBox1 float-right relVerticalCenter"></div><!-- 配图放置处 -->
                  <div class="textBox float-left"><!-- 文字盒子 -->
-                     11111111111111111111111111111111111111
+                     <!-- 标题栏 -->
+                     <div>
+
+                     </div>
+                     <!-- 正文栏 -->
+                     <div>
+                        11111111111111111111111111111111111111
+
+                     </div>
                  </div>
              </div>
          </div>
@@ -152,7 +160,15 @@
         <div class="makeUnfloat"><!-- 便签2辅助定位盒子 -->
             <div class="note float-right makeUnfloat"><!-- 便签本体 -->
                 <div class="textBox float-right"><!-- 文字盒子 -->
-                    11111111111111111111111111111111111111111111111111
+                     <!-- 标题栏 -->
+                     <div>
+
+                     </div>
+                     <!-- 正文栏 -->
+                     <div>
+                        11111111111111111111111111111111111111111111111111
+
+                     </div>
                 </div>
                 <div class="imgBox2 float-left relVerticalCenter"></div><!-- 配图放置处 -->
             </div>
@@ -162,7 +178,15 @@
             <div class="note makeUnfloat"><!-- 便签本体 -->
                 <div class="imgBox3 float-right relVerticalCenter"></div><!-- 配图放置处 -->
                 <div class="textBox float-left"><!-- 文字盒子 -->
-                    11111111111111111111111111111111111111
+
+                     <div><!-- 标题栏 -->
+
+                     </div>
+                    <!-- 正文栏 -->
+                    <div>
+                        11111111111111111111111111111111111111
+
+                    </div>
 
                 </div>
             </div>

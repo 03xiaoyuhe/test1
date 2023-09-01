@@ -19,10 +19,13 @@ public partial class MasterPage : System.Web.UI.MasterPage
 
         if (!IsPostBack)
         {
-            /*
-            Session["userName"] = null;
-            Session["loginSuccess"] = "unlogin";
-            */
+            /* 如果userName为空则初始化 */
+            if (Session["loginSuccess"] == null)
+            {
+                Session["userName"] = null;
+                Session["loginSuccess"] = "unlogin";
+            }
+            
         }
         if (Session["loginSuccess"].ToString() == "success")
         {
