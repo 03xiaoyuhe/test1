@@ -57,6 +57,10 @@
             min-width:1200px;
             max-width:1550px;
             margin:auto;
+            /* 设置背景图 并使其自适应大小 */
+            background-image:url("img/homeHeadImg.jpg");
+            background-repeat: no-repeat;
+            background-size: contain;
         }
         /* 首页大图部分 */
 
@@ -74,18 +78,13 @@
             width:80%;
             height:80%;
             
-            border:solid 3px;
+            border:solid 1px;
             border-color:white;
             border-radius:20px;
             overflow:hidden;
-            box-shadow: 0 0 10px 2px rgba(126, 126, 126);/* 阴影设置 */
+            box-shadow: 0 0 20px 5px rgba(126, 126, 126);/* 阴影设置 */
             margin-top:-10px;
 
-            /* 设置背景图 并使其自适应大小 */
-            background-image:url("img/homeHeadImg.jpg");
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center;
         }
         /* 图片样式 */
         .Img{
@@ -144,10 +143,6 @@
     <form id="form1" runat="server" class="body">
         <!-- 首页大图部分 -->
         <div class="HeadHelpBox"><!-- 辅助定位盒子 -->
-            <div class="imgBox absCenter"><!-- 图片盒子 -->
-
-            </div>
-
         </div>
 
         <!-- 功能展示部分 -->
